@@ -1,16 +1,21 @@
 body {
-    background-color: #FCF9EC;
+    background-color: #FAF2F0;
 }
 
 h1 {
-    color: #12D3CF;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #05B384;
 }
 
-hr {
-    border-color: gray;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5px;
-    width: 5%;
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #05B384;
 }
+
+.center {
+    border: none;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
