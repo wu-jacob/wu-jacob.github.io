@@ -1,13 +1,20 @@
 body {
     background-color: #FAF2F0;
-    font-family: 'Roboto', sans-serif;
     color: #05B384;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 h1 {
-    color: #05B384;
+    color:#05ae81;
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
+}
+
+hr{
+    border: 0;
+    background-color: #174D4F;
+    height: 3px;
 }
 
 p {
@@ -15,23 +22,25 @@ p {
     color: #05B384;
 }
 
+.bottom-container{
+    background-color: #C2EDFF;
+}
+
 .center {
+    background-color: #C2EDFF;
     border: none;
     margin: auto;
-    width: 50%;
+    width: 100%;
     padding: 10px;
-    margin-bottom: 100px;
+    padding-bottom: 150px;
     text-align: center;
   }
 
-.top-container {
-    height: 170px;
-}
-
 .middle-container{
-
+    background-color: #C2EDFF;
 }
 
-.bottom-container{
-
+.top-container {
+    background-color: #C2EDFF;
+    height: 170px;
 }
