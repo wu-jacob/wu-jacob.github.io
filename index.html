@@ -1,57 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>Jacob Wu</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="icon" href="assets/icons/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="top-container"></div>
-    <div class="center">
-        <h1>I'm Jacob</h1>
-        <p>a programmer.</p>
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img src="" alt="">
-          <h2>Hello.</h2>
-          <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="" src="" alt="">
-            <h3>Lorem & Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-          </div>
-          <div class="skill-row">
-            <img class="" src="" alt="">
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-          </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-          <a class="btn" href="mailto:jacobwu6@gmail.com">CONTACT ME</a>
-        </div>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Software Engineer. Vancouver. Student." />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="dark-mode">
+    <div class="container">
+      <h1>Jacob Wu</h1>
+      <h2>SWE @UBC LaunchPad</h2>
+      <p>
+        Hi, I'm Jacob. <br />
+        I am a student at the University of British Columbia studying computer science.
+      </p>
+
+      <div class="links">
+        <ul>
+          <span class="green">
+            <li>
+              <a href="mailto:jacobwu6@gmail.com">email</a>
+            </li>
+          </span>
+          <span class="pink">
+            <li>
+              <a href="https://github.com/wu-jacob" target="_blank">github</a>
+            </li>
+          </span>
+          <span class="blue">
+            <li>
+              <a href="https://linkedin.com/in/jacobwu2004-" target="_blank"
+                >linkedin</a
+              >
+            </li>
+          </span>
+          <span class="yellow">
+            <li>
+              <a href="resume/Jacob_Wu_Resume.pdf" target="_blank">resume</a>
+            </li>
+          </span>
+        </ul>
       </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://google.ca">Website</a>
-        <p>© Jacob Wu.</p>
-      </div>      
-</body>
+    </div>
+    <div class="dark-mode-toggler">
+      <input type="checkbox" id="toggler" />
+      <label for="toggler" aria-label="Toggler for Dark Mode"> </label>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
